@@ -19,7 +19,7 @@ app.set('view engine', 'hbs');
 //set đường dẫn thư mục cho handlebars
 app.set('views', path.join(__dirname, 'resources/views'));
 
-//routes initsadsad
+//routes init321
 route(app);
 
 
