@@ -19,9 +19,9 @@ app.set('view engine', 'hbs');
 //set đường dẫn thư mục cho handlebars
 app.set('views', path.join(__dirname, 'resources/views'));
 
-//routes initdadada
+//routes init
 route(app);
-var a =3;
+
 
 app.use(morgan('combined'));
 app.listen(port, () => {
